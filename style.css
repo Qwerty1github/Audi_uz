@@ -1,0 +1,1869 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Grenze+Gotisch:wght@500;700;900&family=Play:wght@400;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.box1 {
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    border-bottom: 2px solid black;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu {
+    width: 5%;
+    line-height: 70px;
+    float: left;
+    font-size: 20px;
+    margin-left: 30px; 
+    font-weight: 400;   
+}
+
+.box1 img {
+    width: 80px;
+    margin-left: 40%;
+    float: left;
+    cursor: pointer;
+
+}
+
+
+
+.icon {
+    width: 20%;
+    height: 60%;
+    float: left;
+    margin-left: 25%;
+    margin-top: 25px; 
+
+}
+
+.i   {
+    float: right;
+    padding: 4px 13px;
+    font-size: 20px;
+    cursor: pointer; 
+    margin-left: 10px;
+    border-left: 1px solid #000;
+    height: 60%;
+
+}
+
+
+.l  {
+    float: right;
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 4px 0;
+
+
+}
+
+
+.ul{
+    background-color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.ul li a {
+    width: 10%;
+    color: black;
+    background: #ffffff;
+    float: left;
+    text-decoration: none;
+    display: block;
+    padding: 0 0 0 15px;
+    text-align: center; 
+}
+
+.ul li a:hover{
+    background-color: #ffffff;
+    width: 10%;
+    color: #000000;
+    border-bottom: 2px solid black;
+    
+}
+
+.menu .ul {
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+    top: 80px;
+    line-height: 40px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+
+}
+
+
+.menu:hover .ul {
+    opacity: 1;
+    visibility: visible;
+    top: 80px;  
+}
+
+
+
+.bg {
+    background: url(./backgraund-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    transition: 1s;
+    z-index: -2;
+    overflow: hidden;
+
+}
+
+.bg:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: brightness(60%);
+    
+}
+
+
+
+.text1 {
+    width: 80%;
+    position: absolute;
+    top: 140px;
+    left: 10%;
+}
+
+
+.text1 h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+
+
+}
+
+
+
+.text1 p {
+    text-align: center;
+    font-weight: 900;
+    color: #ffffff;
+    padding: 10px 0 0 0;
+}
+
+
+.text1 button {
+    margin-left: 43%;
+    padding: 20px 60px;
+    background: none;
+    border: 1px solid rgb(247, 247, 247);
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+
+.text1 button:hover{
+    color: grey;
+    border-color: grey;
+}
+
+
+.box2 {
+    width: 100%;
+    height: 500px;
+    background: #ffffff;
+}
+
+
+.b2-text {
+    text-align: center;
+    padding: 4% 0 0 0;
+}
+
+.box {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+
+.minbox {
+    width: 30%;
+    margin: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+.minbox .mig1 {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.minbox .mig1:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.minbox h3 {
+    margin-top: 5px;
+    font-weight: 700;
+    padding: 10px 5px;
+}
+
+
+.minbox h5 {
+    width: 100%;
+    font-weight: 700;
+    padding:  0 0 10px 5px;
+}
+
+
+
+.box3 {
+    width: 100%;
+    height: 450px;
+}
+
+.box3-text {
+    width: 43%;
+    padding: 5% 0 0 5%;
+}
+
+.box3-text h1 {
+    padding: 0 0 30px 0;
+    font-weight: 300;
+}
+
+
+
+.box3-text h4 {
+    padding: 0 0 35px 0;
+    font-weight: 300;
+}
+
+.box3-text button {
+    padding: 20px 85px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid black;
+    background: none;
+}
+
+
+.box3-text button:hover {
+    color: grey;
+}
+
+
+.box3-text p {
+    padding: 25px 0 0 0;
+    font-size: 15px;
+}
+
+.box3 img {
+    float: right;
+    width: 48%;
+    margin-top: -24%;
+    padding: 0 40px 0 0;
+    margin-right: 3%;
+}
+
+
+.box4 {
+    width: 100%;
+    height: 450px;
+}
+
+.box4 img {
+    width: 50%;
+    padding: 30px 0 0 40px;
+    margin-left: 2%;
+    margin-top: 25px;
+
+}
+
+.box4-text {
+    width: 38%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 75 px;
+}
+
+.box4-text h1 {
+    font-weight: 500;
+    font-size: 28px;
+    padding: 70px 0 30px 0;
+    
+}
+
+.box4-text p {
+    padding: 0 0 30px 0;
+}
+
+
+.box4-text button {
+    padding: 20px 90px;
+    font-size: 16px;
+    border: 1px solid black;
+    background: none;
+}
+
+.box4-text button:hover{ 
+    color: grey;
+}
+
+.box5 {
+    width: 100%;
+    height: 600px;
+}
+
+.box5 h1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.inbox5 {
+    width: 100%;
+    margin-top: 3%;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.inbox {
+    width: 32%;
+    float: left;
+    margin: 3px;
+    overflow: hidden;
+}
+
+.inbox .img2 {
+    width: 100%;
+    transition: 0.5s;
+   
+}
+
+.inbox .img2:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+   
+}
+
+
+.inbox p{
+    padding: 20px 0 0 0;
+    width: 80%;
+    font-size: 23px;
+}
+
+
+.b1 {
+    margin-left: 520px;
+    margin-top: 40px;
+    padding: 15px 50px;
+    border: none;
+    background: #000;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.b1:hover {
+    background: grey;
+}
+
+
+.box7 {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.box7 img {
+    width: 50%;
+    padding: 30px 0 0 40px;
+    margin-left: 2%;
+    margin-top: 25px;
+
+}
+
+.box7-text {
+    width: 38%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 75px;
+}
+
+.box7-text h1 {
+    font-weight: 500;
+    font-size: 28px;
+    padding: 70px 0 30px 0;
+    
+}
+
+.box7-text p {
+    padding: 0 0 30px 0;
+}
+
+
+.box7-text button {
+    padding: 20px 90px;
+    font-size: 16px;
+    border: 1px solid black;
+    background: none;
+}
+
+.box7-text button:hover{ 
+    color: grey;
+}
+
+
+.fff {
+    width: 100%;
+    height: 700px;
+    background: #000;
+}
+
+
+.ppp{
+    float: left;
+    width: 50vh;
+    height: 30vh;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    list-style-type: none;
+    
+}
+
+.ppp li{
+    padding: 10px;
+}
+
+.ppp li a{
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+}
+
+.ppp li a:hover{
+    text-decoration: underline;
+}
+
+
+
+.pp{
+    z-index: 20;
+    color: white;
+    bottom: 140px;
+    position: relative;
+    left: 1000px;
+    width: 50vh;
+    height: 15vh;
+    padding: 10px;
+}
+
+.pp .coa{
+    font-size: 30px;
+    margin-left: 10%;
+    padding: 5px;
+}
+
+.bb {
+    border-bottom: 1px solid white;
+    position: relative;
+    width: 90%;
+    top: 270px;
+    left: 65px;
+}
+
+
+
+.gapp{
+    position: relative;
+    top: 280px;
+    left:-860px;
+    list-style-type: none;
+    width: 350vh;
+    height: 5vh;
+    font-size: 15px;
+}
+
+.gapp li{
+    float: left;
+    padding: 10px;
+}
+
+.gapp li a{
+    color: white;
+    text-decoration: none;
+}
+
+.gapp li a:hover{
+    color: grey;
+}
+
+.gapp li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.fol{
+    width: 5vh;
+    height: 5vh;
+    position: relative;
+    top: 195px;
+    font-size: 25px;
+    left: 1240px;
+    cursor: pointer;
+
+}
+
+
+.gola{
+    position: relative;
+    width: 15vh;
+    left: 210px;
+    height: 3vh;
+    top: 228px;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 15px;
+}
+
+.gola .golap{
+    position: relative;
+    left: 15px;
+    float: right;
+    margin-top: -20px;
+}
+
+.pasgapla{
+    color: white;
+    position: relative;
+    top: 260px;
+    font-weight: 100;
+    font-size: 10px;
+    left: 70px;
+    width: 200vh;
+    float: left;
+   
+}
+
+
+.pasgapla2{
+    color: white;
+    position: relative;
+    top: 280px;
+    font-weight: 100;
+    font-size: 10px;
+    left: 70px;
+    width: 200vh;
+    float: left;
+   
+}
+
+
+
+.pasgapla3{
+    color: white;
+    position: relative;
+    top: 300px;
+    font-weight: 100;
+    font-size: 10px;
+    left: 70px;
+    width: 200vh;
+    float: left;
+   
+}
+
+.pasgapla3 a{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:850px) {
+
+    .box1 {
+        width: 100%;
+        height: 80px;
+        background: #ffffff;
+        border-bottom: 2px solid black;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .menu {
+        width: 5%;
+        line-height: 70px;
+        float: left;
+        font-size: 20px;
+        margin-left: 30px; 
+        font-weight: 400;   
+    }
+    
+    .box1 img {
+        width: 80px;
+        margin-left: 35%;
+        float: left;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    .icon {
+        width: 20%;
+        height: 60%;
+        float: left;
+        margin-left: 25%;
+        margin-top: 25px; 
+    
+    }
+    
+    .i   {
+        float: right;
+        padding: 4px 13px;
+        font-size: 20px;
+        cursor: pointer; 
+        margin-left: 10px;
+        border-left: 1px solid #000;
+        height: 60%;
+    
+    }
+    
+    
+    .l  {
+        float: right;
+        font-size: 20px;
+        margin-right: 5px;
+        cursor: pointer;
+        padding: 4px 0;
+    
+    
+    }
+    
+    
+    .ul{
+        background-color: #ffffff;
+        text-decoration: none;
+        list-style: none;
+        cursor: pointer;
+    }
+    
+    .ul li a {
+        width: 10%;
+        color: black;
+        background: #ffffff;
+        float: left;
+        text-decoration: none;
+        display: block;
+        padding: 0 0 0 15px;
+        text-align: center; 
+    }
+    
+    .ul li a:hover{
+        background-color: #ffffff;
+        width: 10%;
+        color: #000000;
+        border-bottom: 2px solid black;
+        
+    }
+    
+    .menu .ul {
+        background-color: #ffffff;
+        width: 100%;
+        float: left;
+        top: 80px;
+        line-height: 40px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    
+    }
+    
+    
+    .menu:hover .ul {
+        opacity: 1;
+        visibility: visible;
+        top: 80px;  
+    }
+    
+    
+    
+    .bg {
+        background: url(./backgraund-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+        transition: 1s;
+        z-index: -2;
+        overflow: hidden;
+    
+    }
+    
+    .bg:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: brightness(60%);
+        
+    }
+    
+    
+    
+    .text1 {
+        width: 80%;
+        position: absolute;
+        top: 140px;
+        left: 10%;
+    }
+    
+    
+    .text1 h1{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+    
+    
+    }
+    
+    
+    
+    .text1 p {
+        text-align: center;
+        font-weight: 900;
+        color: #ffffff;
+        padding: 10px 0 0 0;
+    }
+    
+    
+    .text1 button {
+        margin-left: 43%;
+        padding: 20px 60px;
+        background: none;
+        border: 1px solid rgb(247, 247, 247);
+        color: #ffffff;
+        margin-top: 30px;
+    }
+    
+    
+    .text1 button:hover{
+        color: grey;
+        border-color: grey;
+    }
+    
+    
+    .box2 {
+        width: 100%;
+        height: 500px;
+        background: #ffffff;
+    }
+    
+    
+    .b2-text {
+        text-align: center;
+        padding: 4% 0 0 0;
+    }
+    
+    .box {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 100px;
+    }
+    
+    
+    .minbox {
+        width: 30%;
+        margin: 5px;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .minbox .mig1 {
+        width: 100%;
+        transition: 0.5s;
+    }
+    
+    .minbox .mig1:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    
+    }
+    
+    .minbox h3 {
+        margin-top: 5px;
+        font-weight: 700;
+        padding: 10px 5px;
+    }
+    
+    
+    .minbox h5 {
+        width: 100%;
+        font-weight: 700;
+        padding:  0 0 10px 5px;
+    }
+    
+    
+    
+    .box3 {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .box3-text {
+        width: 43%;
+        padding: 5% 0 0 5%;
+    }
+    
+    .box3-text h1 {
+        padding: 0 0 16px 0;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    
+    
+    
+    .box3-text h4 {
+        padding: 0 0 20px 0;
+        font-size: 10px;
+    }
+    
+    .box3-text button {
+        padding: 10px 40px;
+        font-weight: 500;
+        font-size: 16px;
+        border: 1px solid black;
+        background: none;
+    }
+    
+    
+    .box3-text button:hover {
+        color: grey;
+    }
+    
+    
+    .box3-text p {
+        padding: 25px 0 0 0;
+        font-size: 10px;
+    }
+    
+    .box3 img {
+        float: right;
+        width: 48%;
+        margin-top: -24%;
+        padding: 0 40px 0 0;
+        margin-right: 3%;
+    }
+    
+    
+    .box4 {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .box4 img {
+        width: 50%;
+        padding: 30px 0 0 40px;
+        margin-left: 2%;
+        margin-top: 25px;
+    
+    }
+    
+    .box4-text {
+        width: 38%;
+        float: right;
+        margin-top: 10px;
+        margin-right: 45px;
+    }
+    
+    .box4-text h1 {
+        font-weight: 500;
+        font-size: 20px;
+        padding: 50px 0 20px 0;
+        
+    }
+    
+    .box4-text p {
+        padding: 0 0 20px 0;
+        font-size: 15px;
+    }
+    
+    
+    .box4-text button {
+        padding: 10px 40px;
+        font-size: 16px;
+        border: 1px solid black;
+        background: none;
+    }
+    
+    .box4-text button:hover{ 
+        color: grey;
+    }
+    
+    .box5 {
+        width: 100%;
+        height: 600px;
+    }
+    
+    .box5 h1 {
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    .inbox5 {
+        width: 100%;
+        margin-top: 3%;
+        padding-left: 30px;
+        overflow: hidden;
+    }
+    
+    .inbox {
+        width: 32%;
+        float: left;
+        margin: 3px;
+        overflow: hidden;
+    }
+    
+    .inbox .img2 {
+        width: 100%;
+        transition: 0.5s;
+       
+    }
+    
+    .inbox .img2:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+       
+    }
+    
+    
+    .inbox p{
+        padding: 20px 0 0 0;
+        width: 80%;
+        font-size: 23px;
+    }
+    
+    
+    .b1 {
+        margin-left: 250px;
+        margin-top: 40px;
+        padding: 15px 50px;
+        border: none;
+        background: #000;
+        color: #ffffff;
+        transition: 0.5s;
+    }
+    
+    .b1:hover {
+        background: grey;
+    }
+    
+    
+    .box7 {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    
+    .box7 img {
+        width: 50%;
+        padding: 30px 0 0 40px;
+        margin-left: 2%;
+        margin-top: 25px;
+    
+    }
+    
+    .box7-text {
+        width: 38%;
+        float: right;
+        margin-top: 50px;
+        margin-right: 75px;
+    }
+    
+    .box7-text h1 {
+        font-weight: 500;
+        font-size: 18px;
+        padding: 5px 0 20px 0;
+        
+    }
+    
+    .box7-text p {
+        padding: 0 0 10px 0;
+        font-size: 10px;
+    }
+    
+    
+    .box7-text button {
+        padding: 10px 40px;
+        font-size: 16px;
+        border: 1px solid black;
+        background: none;
+    }
+    
+    .box7-text button:hover{ 
+        color: grey;
+    }
+    
+    
+    .fff {
+        width: 100%;
+        height: 770px;
+        background: #000;
+    }
+    
+    
+    .ppp{
+        float: left;
+        width: 18vh;
+        height: 20vh;
+        position: relative;
+        left: 80px;
+        top: 90px;
+        list-style-type: none;
+        
+    }
+    
+    .ppp li{
+        padding: 10px;
+    }
+    
+    .ppp li a{
+        font-size: 15px;
+        font-weight: 100;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .ppp li a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    
+    .pp{
+        z-index: 20;
+        color: white;
+        bottom: 140px;
+        position: relative;
+        left: 550px;
+        bottom: 200px;
+        width: 20vh;
+        height: 15vh;
+        padding: 10px;
+    }
+    
+    .pp .coa{
+        font-size: 20px;
+        margin-left: 10%;
+        padding: 5px;
+    }
+    
+    .bb {
+        border-bottom: 1px solid white;
+        position: relative;
+        width: 85%;
+        top: 130px;
+        left: 65px;
+    }
+    
+    
+    
+    .gapp{
+        position: relative;
+        top: 140px;
+        left:-580px;
+        list-style-type: none;
+        width: 110vh;
+        height: 5vh;
+        font-size: 15px;
+    }
+    
+    .gapp li{
+        float: left;
+        padding: 10px;
+    }
+    
+    .gapp li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .gapp li a:hover{
+        color: grey;
+    }
+    
+    .gapp li a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    .fol{
+        width: 5vh;
+        height: 5vh;
+        position: relative;
+        top: 110px;
+        font-size: 25px;
+        left: 530px;
+        cursor: pointer;
+    
+    }
+    
+    
+    .gola{
+        position: relative;
+        width: 15vh;
+        left: 390px;
+        height: 3vh;
+        top: 70px;
+        color: rgb(255, 255, 255);
+        float: left;
+        font-size: 15px;
+    }
+    
+    .gola .golap{
+        position: relative;
+        left: -60px;
+        float: right;
+        margin-top: -20px;
+    }
+    
+    .pasgapla{
+        color: white;
+        position: relative;
+        top: 70px;
+        font-weight: 100;
+        font-size: 10px;
+        left: 50px;
+        width: 60vh;
+        float: left;
+       
+    }
+    
+    
+    .pasgapla2{
+        color: white;
+        position: relative;
+        top: 80px;
+        font-weight: 100;
+        font-size: 10px;
+        left: 50px;
+        width: 60vh;
+        float: left;
+       
+    }
+    
+    
+    
+    .pasgapla3{
+        color: white;
+        position: relative;
+        top: 90px;
+        font-weight: 100;
+        font-size: 10px;
+        left: 50px;
+        width: 60vh;
+        float: left;
+       
+    }
+    
+    .pasgapla3 a{
+        color: grey;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:450px) {
+
+    .box1 {
+        width: 100%;
+        height: 80px;
+        background: #ffffff;
+        border-bottom: 2px solid black;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .menu {
+        width: 5%;
+        line-height: 70px;
+        float: left;
+        font-size: 20px;
+        margin-left: 30px; 
+        font-weight: 400;   
+    }
+    
+    .box1 img {
+        width: 80px;
+        margin-left: 34%;
+        float: left;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    .icon {
+        width: 20%;
+        height: 60%;
+        float: left;
+        margin-left: 25%;
+        margin-top: 25px; 
+    
+    }
+    
+    .i   {
+        float: right;
+        padding: 4px 13px;
+        font-size: 20px;
+        cursor: pointer; 
+        margin-left: 10px;
+        border-left: 1px solid #000;
+        height: 60%;
+    
+    }
+    
+    
+    .l  {
+        float: right;
+        font-size: 20px;
+        margin-right: 5px;
+        cursor: pointer;
+        padding: 4px 0;
+    
+    
+    }
+    
+    
+    .ul{
+        background-color: #ffffff;
+        text-decoration: none;
+        list-style: none;
+        cursor: pointer;
+    }
+    
+    .ul li a {
+        width: 10%;
+        color: black;
+        background: #ffffff;
+        float: left;
+        text-decoration: none;
+        display: block;
+        padding: 0 0 0 15px;
+        text-align: center; 
+    }
+    
+    .ul li a:hover{
+        background-color: #ffffff;
+        width: 10%;
+        color: #000000;
+        border-bottom: 2px solid black;
+        
+    }
+    
+    .menu .ul {
+        background-color: #ffffff;
+        width: 100%;
+        float: left;
+        top: 80px;
+        line-height: 40px;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    
+    }
+    
+    
+    .menu:hover .ul {
+        opacity: 1;
+        visibility: visible;
+        top: 80px;  
+    }
+    
+    
+    
+    .bg {
+        background: url(./backgraund-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 177%;
+        height: 450px;
+        transition: 1s;
+        z-index: -2;
+        overflow: hidden;
+    
+    }
+    
+    .bg:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        filter: brightness(60%);
+        
+    }
+    
+    
+    
+    .text1 {
+        width: 100%;
+        position: absolute;
+        top: 140px;
+        left: 37%;
+    }
+    
+    
+    .text1 h1{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+    
+    
+    }
+    
+    
+    
+    .text1 p {
+        text-align: center;
+        font-weight: 900;
+        color: #ffffff;
+        padding: 10px 0 0 0;
+    }
+    
+    
+    .text1 button {
+        margin-left: 30%;
+        padding: 20px 60px;
+        background: none;
+        border: 1px solid rgb(247, 247, 247);
+        color: #ffffff;
+        margin-top: 30px;
+    }
+    
+    
+    .text1 button:hover{
+        color: grey;
+        border-color: grey;
+    }
+    
+    
+    .box2 {
+        width: 170%;
+        height: 500px;
+        background: #ffffff;
+    }
+    
+    
+    .b2-text {
+        text-align: center;
+        padding: 4% 0 0 0;
+        padding-left: 10px;
+    }
+    
+    .box {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 100px;
+    }
+    
+    
+    .minbox {
+        width: 100%;
+        margin: 5px;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .minbox .mig1 {
+        width: 85%;
+        transition: 0.5s;
+    }
+    
+    .minbox .mig1:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    
+    }
+    
+    .minbox h3 {
+        margin-top: 5px;
+        font-weight: 700;
+        padding: 10px 5px;
+    }
+    
+    
+    .minbox h5 {
+        width: 85%;
+        font-weight: 700;
+        padding:  0 0 10px 5px;
+    }
+    
+    
+    
+    .box3 {
+        width: 170%;
+        height: 600px;
+    }
+    
+    .box3-text {
+        width: 90%;
+       margin-top: 116%;
+    }
+    
+    .box3-text h1 {
+        padding: 0 0 10px 0;
+        font-weight: 300;
+        font-size: 20px;
+        margin-left: 75px;
+    }
+    
+    
+    
+    .box3-text h4 {
+        padding: 0 0 10px 0;
+        font-size: 10px;
+        margin-left: 75px;
+    }
+    
+    .box3-text button {
+        padding: 10px 220px;
+        font-weight: 500;
+        font-size: 16px;
+        border: 1px solid black;
+        background: none;
+        margin-left: 75px;
+        margin-top: 8%;
+
+    }
+    
+    
+    .box3-text button:hover {
+        color: grey;
+    }
+    
+    
+    .box3-text p {
+        padding: 10px 0 0 0;
+        font-size: 10px;
+        margin-left: 75px;
+        margin-top: -17%;
+    }
+    
+    .box3 img {
+        float: left;
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 10%;
+       
+      
+    }
+    
+    
+    .box4 {
+        width: 170%;
+        height: 600px;
+    }
+    
+    .box4 img {
+        width: 90%;
+        
+    
+    }
+    
+    .box4-text {
+        width: 85%;
+        float: right;
+        margin-top: 10px;
+        margin-right: 45px;
+    }
+    
+    .box4-text h1 {
+        font-weight: 500;
+        font-size: 20px;
+        padding: 10px 0 10px 0;
+        
+    }
+    
+    .box4-text p {
+        padding: 0 0 20px 0;
+        font-size: 15px;
+    }
+    
+    
+    .box4-text button {
+        padding: 16px 250px;
+        font-size: 16px;
+        border: 1px solid black;
+        background: none;
+    }
+    
+    .box4-text button:hover{ 
+        color: grey;
+    }
+    
+    .box5 {
+        width: 170%;
+        height: 300px;
+    }
+    
+    .box5 h1 {
+        width: 100%;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    .inbox5 {
+        width: 100%;
+        height: 1500px;
+        margin-top: 3%;
+        padding-left: 30px;
+        overflow: hidden;
+    }
+    
+    .inbox {
+        width: 87%;
+        float: left;
+        margin: 0 3px;
+        overflow: hidden;
+        margin-left: 38px;
+        padding: 0 0 20px 0;
+    }
+    
+    .inbox .img2 {
+        width: 100%;
+        transition: 0.5s;
+       
+    }
+    
+    .inbox .img2:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+       
+    }
+    
+    
+    .inbox p{
+        padding: 10px 0 0 0;
+        width: 80%;
+        font-size: 23px;
+    }
+    
+    
+    .b1 {
+        margin-left: 200px;
+        margin-top: 40px;
+        padding: 15px 50px;
+        border: none;
+        background: #000;
+        color: #ffffff;
+        transition: 0.5s;
+    }
+    
+    .b1:hover {
+        background: grey;
+    }
+    
+    
+    .box7 {
+        width: 170%;
+        height: 600px;
+        position: relative;
+        margin-top: 290%;
+    }
+    
+    .box7 img {
+        width: 90%;
+        padding: 30px 0 0 40px;
+        margin-left: 2%;
+        margin-top: 25px;
+    
+    }
+    
+    .box7-text {
+        width: 83%;
+        float: right;
+        margin-top: 10px;
+        margin-right: 65px;
+    }
+    
+    .box7-text h1 {
+        font-weight: 500;
+        font-size: 18px;
+        padding: 5px 0 5px 0;
+        
+    }
+    
+    .box7-text p {
+        padding: 0 0 10px 0;
+        font-size: 10px;
+    }
+    
+    
+    .box7-text button {
+        padding: 15px 250px;
+        font-size: 16px;
+        border: 1px solid black;
+        background: none;
+    }
+    
+    .box7-text button:hover{ 
+        color: grey;
+    }
+    
+    
+    .fff {
+        width: 177%;
+        height: 1400px;
+        background: #000;
+    }
+    
+    
+    .ppp{
+        float: left;
+        width: 20vh;
+        height: 20vh;
+        position: relative;
+        left: 80px;
+        top: 70px;
+        list-style-type: none;
+        
+    }
+    
+    .ppp li{
+        padding: 7px;
+    }
+    
+    .ppp li a{
+        font-size: 15px;
+        font-weight: 100;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .ppp li a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    
+    .pp{
+        z-index: 20;
+        color: white;
+        bottom: 140px;
+        position: relative;
+        left: 500px;
+        bottom: 160px;
+        width: 25vh;
+        height: 15vh;
+        padding: 10px;
+    }
+    
+    .pp .coa{
+        font-size: 18px;
+        margin-left: 10%;
+        padding: 5px;
+    }
+    
+    .bb {
+        border-bottom: 1px solid white;
+        position: relative;
+        width: 85%;
+        top: 120px;
+        left: 60px;
+    }
+    
+    
+    
+    .gapp{
+        position: relative;
+        top: 120px;
+        left:-480px;
+        list-style-type: none;
+        width: 130vh;
+        height: 10vh;
+        font-size: 15px;
+    }
+    
+    .gapp li{
+        float: left;
+        padding: 10px;
+    }
+    
+    .gapp li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .gapp li a:hover{
+        color: grey;
+    }
+    
+    .gapp li a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    .fol{
+        width: 5vh;
+        height: 5vh;
+        position: relative;
+        top: 75px;
+        font-size: 25px;
+        left: 610px;
+        cursor: pointer;
+    
+    }
+    
+    
+    .gola{
+        position: relative;
+        width: 15vh;
+        left: 480px;
+        height: 3vh;
+        top: 34px;
+        color: rgb(255, 255, 255);
+        float: left;
+        font-size: 15px;
+    }
+    
+    .gola .golap{
+        position: relative;
+        left: -25px;
+        float: right;
+        margin-top: -20px;
+    }
+    
+    .pasgapla{
+        color: white;
+        position: relative;
+        top: 60px;
+        font-weight: 100;
+        font-size: 10px;
+        left: 50px;
+        width: 70vh;
+        float: left;
+       
+    }
+    
+    
+    .pasgapla2{
+        color: white;
+        position: relative;
+        top: 70px;
+        font-weight: 100;
+        font-size: 10px;
+        left: 50px;
+        width: 70vh;
+        float: left;
+       
+    }
+    
+    
+    
+    .pasgapla3{
+        color: white;
+        position: relative;
+        top: 80px;
+        font-weight: 100;
+        font-size: 10px;
+        left: 50px;
+        width: 70vh;
+        float: left;
+       
+    }
+    
+    .pasgapla3 a{
+        color: grey;
+    }
+    
+}
